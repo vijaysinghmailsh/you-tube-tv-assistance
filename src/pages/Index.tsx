@@ -46,11 +46,11 @@ const Index = () => {
               Get instant help with your YouTube TV streaming experience. Our expert support team is here 24/7 to ensure uninterrupted entertainment.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
-                Get Help Now
+              <a href="tel:+18883417651" Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+                +1-888-341-7651
               </Button>
-              <Button variant="outline" size="lg" className="px-8 py-4 text-lg font-semibold hover:scale-105 transition-all duration-300">
-                Browse FAQ
+              <a href="tel:+18883417651" Button variant="outline" size="lg" className="px-8 py-4 text-lg font-semibold hover:scale-105 transition-all duration-300">
+                Call Now
               </Button>
             </div>
           </div>
@@ -220,16 +220,6 @@ const Index = () => {
                       <span>Expert Support</span>
                     </div>
                   </div>
-                </div>
-                <div className="grid grid-cols-2 gap-4">
-                  <Button variant="secondary" className="bg-white/20 backdrop-blur-sm text-white border-white/30 hover:bg-white/30">
-                    <Mail className="w-4 h-4 mr-2" />
-                    Email Support
-                  </Button>
-                  <Button variant="secondary" className="bg-white/20 backdrop-blur-sm text-white border-white/30 hover:bg-white/30">
-                    <MessageCircle className="w-4 h-4 mr-2" />
-                    Live Chat
-                  </Button>
                 </div>
               </CardContent>
               {/* Decorative elements */}
